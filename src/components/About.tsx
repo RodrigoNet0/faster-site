@@ -5,7 +5,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row justify-center items-center w-full bg-gray-200">
       
       
-      <div className="bg-gray-200 w-full md:w-2/3 p-6 sm:p-4 space-y-4 md:space-y-6 max-w-xl rounded-lg shadow-lg">
+      <div className="bg-gray-200 w-full md:w-1/3 p-6 sm:p-4 space-y-4 md:space-y-6 max-w-xl shadow-lg">
         <div className="text-orange-600 text-lg font-bold">
           <p>GET A QUOTE</p>
         </div>
