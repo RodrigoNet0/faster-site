@@ -1,3 +1,4 @@
+import Form from "./Form";
 
 
 export default function About() {
@@ -37,7 +38,7 @@ export default function About() {
 
      
       <div className="bg-orange-500 w-full md:w-1/3 p-6 sm:p-14 mt-6 md:mt-0 max-w-md  shadow-lg">
-        <form className="space-y-4">
+        {/* <form className="space-y-4">
           <input
             type="text"
             placeholder="Your Name"
@@ -48,19 +49,15 @@ export default function About() {
             placeholder="Your Email"
             className="w-full p-2 border border-gray-300 rounded"
           />
-          <select className="w-full p-2 border border-gray-300 rounded">
-            <option>Select a service</option>
-            <option>Service 1</option>
-            <option>Service 2</option>
-            <option>Service 3</option>
-          </select>
+         
           <button
             type="submit"
             className="w-full bg-gray-800 text-white p-2 rounded"
           >
             Get A Quote
           </button>
-        </form>
+        </form> */}
+        <Form />
       </div>
     </div>
   );
